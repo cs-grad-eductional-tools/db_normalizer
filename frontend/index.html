@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>BCNF Calculator</title>
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
+      <link rel="stylesheet" href="site.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="form.js"></script>
+      <script src="wasm.js"></script>
+   </head>
+   <body>
+      <h1>BCNF Calculator</h1>
+      <div class = "inputs">
+         <div class = "input-group">
+            <h3>Columns</h3>
+            <div class = "cols-buttons">
+               <button class = "add-col">+</button>
+               <button class = "remove-col">-</button>
+            </div>
+            <div class = "cols-boxes"></div>
+         </div>
+         <div class = "input-group">
+            <h3>Functional Dependencies</h3>
+            <div class = "fds-buttons">
+               <button class = "add-fd">+</button>
+               <button class = "remove-fd">-</button>
+            </div>
+            <div class = "fds-boxes"></div>
+         </div>
+      </div>
+      <div>
+         <h3>Result</h3>
+      </div>
+   </body>
+</html>
